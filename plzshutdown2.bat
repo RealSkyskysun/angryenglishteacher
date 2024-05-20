@@ -1,0 +1,3 @@
+@echo off
+echo Shutting down your computer...
+shutdown /s /t 0
