@@ -14,8 +14,6 @@ echo you have angered me more...
 echo I have Hacked you
 echo Your Windows computer will crash in 10 seconds
 timeout 10
-@echo off
-
 rem Get the path to the current script
 set "script_path=%~dp0"
 set "script_name=%~nx0"
