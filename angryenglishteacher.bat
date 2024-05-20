@@ -3,7 +3,7 @@ color 57
 echo Hey, i am angry english teacher, answer my question: what is the longest word in the world? : 
 set /p love=
 if %love%==titin goto right
-if %love%==no goto wrong
+if %love%== NEQ titin goto wrong
 :right
 echo Correct! your windows computer is safe
 echo you are smart!
